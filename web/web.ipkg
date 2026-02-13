@@ -2,7 +2,7 @@ package web
 
 version    = 0.0.1
 authors    = "Arimura Sena"
-license    = "BAN-ZHINESE-USING"
+license    = "GPL-3.0-or-later"
 depends    = dice
 sourcedir  = "src"
 executable = "Web.js"
