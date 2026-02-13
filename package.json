@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "A library for parsing and evaluating dice expressions.",
-  "license": "BAN-ZHINESE-USING",
+  "license": "GPL-3.0-or-later",
   "author": "Arimura Sena <me@hotaru.icu>",
   "repository": {
     "type": "git",

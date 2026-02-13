@@ -3,7 +3,7 @@ package dice
 version    = 0.1.0
 brief      = "A library for parsing and evaluating dice expressions."
 authors    = "Arimura Sena"
-license    = "BAN-ZHINESE-USING"
+license    = "GPL-3.0-or-later"
 sourcedir  = "src"
 
 modules = Dice

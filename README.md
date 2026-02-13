@@ -68,4 +68,4 @@ Please refer to the [DiceScript Guide](GUIDE.md) for more details.
 
 ## License
 
-Under the **BAN-ZHINESE-USING** License.
+Under the **GPL-3.0-or-later** License.
