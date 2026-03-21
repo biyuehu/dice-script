@@ -6,7 +6,7 @@
 
 # DiceScript
 
-<img src="https://github.com/BIYUEHU/dicescript/blob/main/web/public/favicon.png?raw=true" width="200px" height="200px" alt="logo"/>
+<img src="https://github.com/BIYUEHU/dice-script/blob/main/web/public/favicon.png?raw=true" width="200px" height="200px" alt="logo"/>
 
 **A safe and fast dice expression evaluator base on Idris2.**
 
