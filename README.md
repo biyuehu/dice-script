@@ -10,7 +10,7 @@
 
 **A safe and fast dice expression evaluator base on Idris2.**
 
-[-> PlayGround <-](http://dice.hotaru.icu/)
+[-> PlayGround <-](http://dc.hotaru.icu/)
 
 </div>
 
