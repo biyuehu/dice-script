@@ -8,6 +8,12 @@
 
 <img src="https://github.com/BIYUEHU/dice-script/blob/main/web/public/favicon.png?raw=true" width="200px" height="200px" alt="logo"/>
 
+![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![Idris2](https://img.shields.io/badge/%CE%BE%20Idris2-911326?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=flat-square&logo=codeberg&logoColor=white)
+
 **A safe and fast dice expression evaluator base on Idris2.**
 
 [-> PlayGround <-](http://dc.hotaru.icu/)
