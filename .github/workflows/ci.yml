@@ -2,7 +2,7 @@ name: Idris2 Build & Deploy
 
 on:
   push:
-    branches: ["main"]
+    branches: [ "main" ]
     paths:
       - "**.idr"
       - "package.json"
@@ -18,13 +18,8 @@ jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout Repository
-        uses: actions/checkout@v4
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+      - uses: actions/checkout@v4
+      - uses: oven-sh/setup-bun@v2
 
       - name: Install Idris 2 & Pack
         run: |
@@ -32,16 +27,14 @@ jobs:
           sudo apt-get install -y chezscheme
           echo "chezscheme" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/stefan-hoeck/idris2-pack/main/install.bash)"
           echo "$HOME/.pack/bin" >> $GITHUB_PATH
-
       - name: Verify Idris 2 Installation
         run: idris2 --version
-
       - name: Run Tests
-        run: npm run test
+        run: bun run test
 
       - name: Build REPL Executable
         run: |
-          npm run build
+          bun run build
           mv ./repl/build/exec/Repl ./repl/build/exec/Repl.js
 
       - name: Upload Artifact
@@ -51,13 +44,13 @@ jobs:
           path: ./repl/build/exec/Repl.js
 
       - name: Build Web Artifacts
-        run: npm run build:web
+        run: bun run build:web
 
       - name: Deploy to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: webpage
           build_dir: web/dist
-          fqdn: https://dice.hotaru.icu
+          fqdn: https://dc.hotaru.icu
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
