@@ -8,6 +8,7 @@
 
 <img src="https://github.com/BIYUEHU/dice-script/blob/main/web/public/favicon.png?raw=true" width="200px" height="200px" alt="logo"/>
 
+[![wakatime](https://wakatime.com/badge/user/018dc603-712a-4205-a226-d4c9ccd0d02b/project/ad1488cd-1f59-40b4-ae57-2b7d74d2adf5.svg)](https://wakatime.com/badge/user/018dc603-712a-4205-a226-d4c9ccd0d02b/project/ad1488cd-1f59-40b4-ae57-2b7d74d2adf5)
 ![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
 ![Idris2](https://img.shields.io/badge/%CE%BE%20Idris2-911326?style=flat-square)
