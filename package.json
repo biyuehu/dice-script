@@ -21,6 +21,7 @@
     "idris"
   ],
   "scripts": {
+    "init": "bun install && lefthook install",
     "start": "bun repl/build/exec/Repl",
     "dev": "python scripts/watch.py --root ./ --ext .idr --cmd \"bun run dev:only\"",
     "dev:only": "bun run build && bun run start",
