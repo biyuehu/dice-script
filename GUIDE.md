@@ -75,7 +75,7 @@ Requirements: `x` must be a natural number, `y` must be a positive integer great
 Range operator. Generates all integers from `x` to `y` (inclusive). Both operands must be integers.
 
 ```ts
-> 1..5
+> 1 .. 5
 [1, 2, 3, 4, 5]
 > 5..1
 []

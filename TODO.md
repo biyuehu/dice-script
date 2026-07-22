@@ -6,3 +6,5 @@
 - [X] Fix: expr `0d8` no response
 - [X] Github build action
 - [X] `npm run pack` to create a distributable package (npm package), need a new sub package for releasing to pack ESM
+- [ ] Fix: `Ordered Comparison Evaluation Error: Expects number for arithmetic but got: True`
+- [ ] Support exploding dice
