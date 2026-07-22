@@ -46,14 +46,14 @@ jobs:
           name: repl-executable
           path: ./repl/build/exec/Repl.js
 
-      - name: Build Web Artifacts
-        run: bun run build:web
+      # - name: Build Web Artifacts
+      #   run: bun run build:web
 
-      - name: Deploy to GitHub Pages
-        uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: webpage
-          build_dir: web/dist
-          fqdn: https://dc.hotaru.icu
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # - name: Deploy to GitHub Pages
+      #   uses: crazy-max/ghaction-github-pages@v4
+      #   with:
+      #     target_branch: webpage
+      #     build_dir: web/dist
+      #     fqdn: https://dc.hotaru.icu
+      #   env:
+      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
