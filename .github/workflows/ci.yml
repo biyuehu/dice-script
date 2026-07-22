@@ -27,8 +27,11 @@ jobs:
           sudo apt-get install -y chezscheme
           echo "chezscheme" | bash -c "$(curl -fsSL https://raw.githubusercontent.com/stefan-hoeck/idris2-pack/main/install.bash)"
           echo "$HOME/.pack/bin" >> $GITHUB_PATH
+          bun install
+
       - name: Verify Idris 2 Installation
         run: idris2 --version
+
       - name: Run Tests
         run: bun run test
 
