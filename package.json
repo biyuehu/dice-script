@@ -27,7 +27,7 @@
     "build": "cd repl && idris2 --install ../dice.ipkg && idris2 --cg node --build",
     "dev:web": "python scripts/webdev.py",
     "build:web-only": "cd web && idris2 --install ../dice.ipkg && idris2 --cg javascript --build",
-    "build:web": "bun run build:web-only && cd web && bun x vite build",
+    "build:web": "bun run build:web-only && cd web && bun vite build",
     "test": "cd test && idris2 --install ../dice.ipkg && idris2 --cg node --build && bun build/exec/Test.js",
     "packs": "python scripts/pack.py"
   },
@@ -37,5 +37,8 @@
     "dice.pkg",
     "LICENSE",
     "*.md"
-  ]
+  ],
+  "dependencies": {
+    "vite": "^8.1.3"
+  }
 }
