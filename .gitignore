@@ -23,8 +23,11 @@ dist-ssr
 *.sln
 *.sw?
 
-build
-!web/build/exec/Web.js
+/build
+/repl/build
+/js-pack/build
+/web/build/ttc
+
 lib
 
 /*.tgz
