@@ -54,6 +54,6 @@ jobs:
       #   with:
       #     target_branch: webpage
       #     build_dir: web/dist
-      #     fqdn: https://dc.hotaru.icu
+      #     fqdn: https://dicescript.vercel.app
       #   env:
       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

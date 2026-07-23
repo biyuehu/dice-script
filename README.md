@@ -17,7 +17,7 @@
 
 **A safe and fast dice expression evaluator base on Idris2.**
 
-[-> PlayGround <-](http://dc.hotaru.icu/)
+[-> PlayGround <-](http://dicescript.vercel.app/)
 
 </div>
 

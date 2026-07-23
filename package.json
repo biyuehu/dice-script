@@ -1,11 +1,11 @@
 {
   "name": "dicescripts",
-  "version": "0.1.15",
+  "version": "0.1.16",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "description": "A library for parsing and evaluating dice expressions.",
   "license": "GPL-3.0-or-later",
-  "author": "Arimura Sena <me@hotaru.icu>",
+  "author": "Arimura Sena <i@arimuraromi.com>",
   "repository": {
     "type": "git",
     "url": "https://github.com/biyuehu/dicescript"
