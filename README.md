@@ -1,0 +1,78 @@
+<!-- markdownlint-disable -->
+
+<!-- > Fuck [you](https://github.com/sealdice/dicescript), [you](https://github.com/sealdice/dicescript) bastard, [you](https://github.com/sealdice/dicescript) used my npm package name before [you](https://github.com/sealdice/dicescript) could. I created this repository first. -->
+
+<div align="center">
+
+# DiceScript
+
+<img src="https://github.com/BIYUEHU/dice-script/blob/main/web/public/favicon.png?raw=true" width="200px" height="200px" alt="logo"/>
+
+[![wakatime](https://wakatime.com/badge/user/018dc603-712a-4205-a226-d4c9ccd0d02b/project/ad1488cd-1f59-40b4-ae57-2b7d74d2adf5.svg)](https://wakatime.com/badge/user/018dc603-712a-4205-a226-d4c9ccd0d02b/project/ad1488cd-1f59-40b4-ae57-2b7d74d2adf5)
+![License](https://img.shields.io/badge/License-GPL--3.0-blue?style=flat-square)
+![Bun](https://img.shields.io/badge/Bun-000000?style=flat-square&logo=bun&logoColor=white)
+![Idris2](https://img.shields.io/badge/%CE%BE%20Idris2-911326?style=flat-square)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![Codeberg](https://img.shields.io/badge/Codeberg-2185D0?style=flat-square&logo=codeberg&logoColor=white)
+
+**A safe and fast dice expression evaluator base on Idris2.**
+
+[-> PlayGround <-](http://dicescript.vercel.app/)
+
+</div>
+
+<!-- markdownlint-enable -->
+
+---
+
+## What is DiceScript?
+
+DiceScript is a superset of Mathematical (Arithmetic) Expression, it supports many advanced features, such as:
+
+- Lambdas (Anonymous functions): `\x -> x+1` (Refers to Haskell lambda syntax)
+- Array types: `[1, 2, 3]`
+- Infix operaters: Dice `d`, Range `..`, Random Integer `~`, Concatenation `++`, Colon `:`
+- More math functions: `round`, `floor`, `ceil`, `abs`, `sqrt`...
+- Array functions: `map`, `filter`, `fold`, `reduce`, `flatMap`, `every`, `some`, `length`, `reverse`, `sort`, `include` ...
+- Set functions: `union`, `intersection`, `offset` ...
+- Random functions: `int`, `real`, `bool`, `shuffle`, `pick` ...
+- List comprehension (Similar to Mathematical Set): `[x*2 | x <- [1 .. 5]]`
+- Math
+
+> DiceScript is not a programming language, it is a DSL (Domain Specific Language) of base expression, an legal programm of DiceScript has only a expression.
+
+## What is Idris2?
+
+Idris2 is a dependently typed and functional programming language, it powerfully ensures type and program safety.
+
+## Guide
+
+Please refer to the [DiceScript Guide](GUIDE.md) for more details.
+
+## Supported Backends
+
+- Default (Repl): `node`
+- Default (Web Demo): `javascript` (Browser)
+- `chez`
+- `chez-sep`
+- `racket`
+- `refc`
+
+## Development
+
+### Requirements
+
+- Node.js
+- Idris2
+- Python
+
+### Scripts
+
+- `start`: Start the building process
+- `dev`: Start the development watch mode
+- `build`: Build the project
+- `test`: Run the test cases
+
+## License
+
+Under the **GPL-3.0-or-later** License.
